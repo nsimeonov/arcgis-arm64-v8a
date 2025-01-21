@@ -42,6 +42,7 @@ android {
                 jniLibs.excludes.add("**/*.pdb")
                 jniLibs.excludes.add("lib/mips/*.so")
                 jniLibs.excludes.add("lib/mips64/*.so")
+                jniLibs.useLegacyPackaging = true
             }
 
             proguardFiles(
